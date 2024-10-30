@@ -1,4 +1,4 @@
-package lesson_10__15_10_24_Return_fori_continue_break.nomeweork;
+package lesson_09__10_10_24_Methods_PeregruzkaMetoda_TernaryOperator.homework;
 
 /*                         Home Work 9
                               Task 2
