@@ -1,4 +1,4 @@
-package lesson_10__15_10_24_Return_fori_continue_break.classwork_loopFori;
+package lesson_10__15_10_24_Return_fori_continue_break.nomeweork;
 
 /*                         Home Work 9
                               Task 2
