@@ -15,7 +15,7 @@ public class HW_Task2 {
             if (array[i] > maxNum){
                 secondMaxNum = maxNum;
                 maxNum = array[i];
-            }else if (array[i] > secondMaxNum && array[i] != maxNum){
+            }else if (array[i] > secondMaxNum && array[i] < maxNum){
                 secondMaxNum = array[i];
 
             }
