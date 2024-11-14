@@ -49,4 +49,6 @@ public class HW15_Football1 {
     public void info3() {
         System.out.printf("Я болельщик и меня зовут %s. Мне %d лет.\n", name, age);
     }
+
+
 }
