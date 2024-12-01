@@ -1,4 +1,4 @@
-package lesson_12__22_10_24.classwork12;
+package lesson12_22_10_24.classwork12;
 
 import java.util.Arrays;
 
