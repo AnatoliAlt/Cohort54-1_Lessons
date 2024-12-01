@@ -1,4 +1,4 @@
-package lesson_09__10_10_24_Methods_PeregruzkaMetoda_TernaryOperator;
+package lesson09_10_10_24_Methods_PeregruzkaMetoda_TernaryOperator;
 
 public class Test {
     public static void main(String[] args) {

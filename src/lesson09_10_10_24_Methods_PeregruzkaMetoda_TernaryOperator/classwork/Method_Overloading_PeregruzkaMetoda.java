@@ -1,4 +1,4 @@
-package lesson_09__10_10_24_Methods_PeregruzkaMetoda_TernaryOperator.classwork;
+package lesson09_10_10_24_Methods_PeregruzkaMetoda_TernaryOperator.classwork;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package lesson_09__10_10_24_Methods_PeregruzkaMetoda_TernaryOperator.homework;
+package lesson09_10_10_24_Methods_PeregruzkaMetoda_TernaryOperator.homework;
 /*
 Task 1
 Написать метод, принимающий массив целых чисел и распечатывающий массив в обратной последовательности.

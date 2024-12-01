@@ -1,4 +1,4 @@
-package lesson_09__10_10_24_Methods_PeregruzkaMetoda_TernaryOperator.homework;
+package lesson09_10_10_24_Methods_PeregruzkaMetoda_TernaryOperator.homework;
 /*
 Task 0
 Написать метод, принимающий на вход строку. Метод должен вывести на экран число, соответсвующее количеству символов в строке.
