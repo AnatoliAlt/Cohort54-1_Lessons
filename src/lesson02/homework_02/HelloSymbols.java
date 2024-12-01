@@ -1,4 +1,4 @@
-package lesson_02.homework_02;
+package lesson02.homework_02;
 
 public class HelloSymbols {
     public static void main(String[] args) {
