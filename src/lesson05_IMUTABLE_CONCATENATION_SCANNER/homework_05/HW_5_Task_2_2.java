@@ -1,4 +1,4 @@
-package lesson_05_IMUTABLE_CONCATENATION_SCANNER.homework_05;
+package lesson05_IMUTABLE_CONCATENATION_SCANNER.homework_05;
 
 /*
 Task 2.2 * (Опционально)

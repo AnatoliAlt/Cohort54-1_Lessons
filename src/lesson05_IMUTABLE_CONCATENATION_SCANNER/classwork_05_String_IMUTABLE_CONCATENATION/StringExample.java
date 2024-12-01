@@ -1,4 +1,4 @@
-package lesson_05_IMUTABLE_CONCATENATION_SCANNER.classwork_05_String_IMUTABLE_CONCATENATION;
+package lesson05_IMUTABLE_CONCATENATION_SCANNER.classwork_05_String_IMUTABLE_CONCATENATION;
 
 public class StringExample {
     public static void main(String[] args) {
