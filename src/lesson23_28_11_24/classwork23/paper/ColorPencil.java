@@ -1,0 +1,18 @@
+package lesson23_28_11_24.classwork23.paper;
+
+public class ColorPencil extends Pencil{
+    private String color = "red";
+
+    @Override
+    public void draw(String figureName) {
+        System.out.println("Рисую цветным карандашом (цвет: " + color + ") фигуру " + figureName);
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+}
