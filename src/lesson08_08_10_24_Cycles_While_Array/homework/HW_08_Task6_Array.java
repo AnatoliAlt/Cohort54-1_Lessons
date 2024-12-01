@@ -1,4 +1,4 @@
-package lesson_08__08_10_24_Cycles_While_Array.homework;
+package lesson08_08_10_24_Cycles_While_Array.homework;
 /*                                  Home Work 8
                                       Task 6
 Создать массив целых чисел произвольной длины от 5 до 15. Заполнить массив случайными значениями от -50 до 50.

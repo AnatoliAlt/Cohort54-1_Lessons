@@ -1,4 +1,4 @@
-package lesson_08__08_10_24_Cycles_While_Array.classwork;
+package lesson08_08_10_24_Cycles_While_Array.classwork;
 /*
 Циклы позволяют выполнять код несколько раз подряд. Каждый такой повтор называется итерацией.
 

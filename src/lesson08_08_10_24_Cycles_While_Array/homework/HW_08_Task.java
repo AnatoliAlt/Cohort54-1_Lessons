@@ -1,4 +1,4 @@
-package lesson_08__08_10_24_Cycles_While_Array.homework;
+package lesson08_08_10_24_Cycles_While_Array.homework;
 /*
 Циклы
 Task 1
