@@ -1,4 +1,4 @@
-package lesson_04_TypeChar_post_pred_increment_decrement.homework_04;
+package lesson04_TypeChar_post_pred_increment_decrement.homework_04;
 /*
 Task 2
 Явное преобразование double в int

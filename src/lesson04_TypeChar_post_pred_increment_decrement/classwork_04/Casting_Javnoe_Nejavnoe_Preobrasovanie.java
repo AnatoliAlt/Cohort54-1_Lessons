@@ -1,4 +1,4 @@
-package lesson_04_TypeChar_post_pred_increment_decrement.classwork_04;
+package lesson04_TypeChar_post_pred_increment_decrement.classwork_04;
 
 public class Casting_Javnoe_Nejavnoe_Preobrasovanie {
     public static void main(String[] args) {
