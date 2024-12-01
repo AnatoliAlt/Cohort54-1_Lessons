@@ -1,4 +1,4 @@
-package lesson_03_peremennie_tipydannih.classwork_03;
+package lesson03_peremennie_tipydannih.classwork_03;
 
 public class Variables {
     public static void main(String[] args) {

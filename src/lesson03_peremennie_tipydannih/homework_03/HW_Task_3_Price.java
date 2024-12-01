@@ -1,4 +1,4 @@
-package lesson_03_peremennie_tipydannih.homework_03;
+package lesson03_peremennie_tipydannih.homework_03;
 /*
 Task 3 * (Опционально)
 Пусть цена товара A составляет 1000 Euro, а товара B составляет 500 Euro.

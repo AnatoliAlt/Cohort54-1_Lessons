@@ -1,4 +1,4 @@
-package lesson_03_peremennie_tipydannih.homework_03;
+package lesson03_peremennie_tipydannih.homework_03;
 
 public class HW_Aufgabe {
     /*

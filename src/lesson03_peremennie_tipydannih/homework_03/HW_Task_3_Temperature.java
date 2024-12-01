@@ -1,4 +1,4 @@
-package lesson_03_peremennie_tipydannih.homework_03;
+package lesson03_peremennie_tipydannih.homework_03;
 /*
 Task 3 * (Опционально)
 Найдите в Интернете данные по температуре в вашем городе за прошедшую неделю (или придумайте :) ).

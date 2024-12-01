@@ -1,4 +1,4 @@
-package lesson_03_peremennie_tipydannih.homework_03;
+package lesson03_peremennie_tipydannih.homework_03;
 /*
 Task 2
 Объявите 4 переменных типа int со значениями 0, 1, 2, 3.

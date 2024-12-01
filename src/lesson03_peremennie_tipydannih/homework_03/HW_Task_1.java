@@ -1,4 +1,4 @@
-package lesson_03_peremennie_tipydannih.homework_03;
+package lesson03_peremennie_tipydannih.homework_03;
 /*
 Task 1
 В классе HomeWork03 задекларировать (объявить) и присвоить значения 3-м переменным. Правильно подберите тип и имя переменным.
