@@ -1,4 +1,4 @@
-package lesson_10__15_10_24_Return_fori_continue_break.classwork_loopFori;
+package lesson10_15_10_24_Return_fori_continue_break.classwork_loopFori;
 
 import java.util.Random;
 

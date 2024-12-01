@@ -1,4 +1,4 @@
-package lesson_10__15_10_24_Return_fori_continue_break.nomeweork;
+package lesson10_15_10_24_Return_fori_continue_break.nomeweork;
 /*
 Task 2
 Написать метод, принимающий на вход массив строк. Метод должен вернуть массив, состоящий из самой

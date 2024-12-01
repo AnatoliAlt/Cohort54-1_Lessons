@@ -1,4 +1,4 @@
-package lesson_10__15_10_24_Return_fori_continue_break.nomeweork;
+package lesson10_15_10_24_Return_fori_continue_break.nomeweork;
 
 import java.util.Arrays;
 import java.util.Random;
