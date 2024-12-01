@@ -1,4 +1,4 @@
-package lesson_07__01_10_24_if_Switch_StringEquals.classwork;
+package lesson07_01_10_24_if_Switch_StringEquals.classwork;
 
 public class StringEquals_1 {
     public static void main(String[] args) {

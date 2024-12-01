@@ -1,4 +1,4 @@
-package lesson_07__01_10_24_if_Switch_StringEquals.homework;
+package lesson07_01_10_24_if_Switch_StringEquals.homework;
 
 public class HW_07_Task {
     /*

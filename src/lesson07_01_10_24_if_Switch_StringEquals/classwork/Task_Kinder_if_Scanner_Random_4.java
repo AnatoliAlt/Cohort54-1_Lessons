@@ -1,4 +1,4 @@
-package lesson_07__01_10_24_if_Switch_StringEquals.classwork;
+package lesson07_01_10_24_if_Switch_StringEquals.classwork;
 
 import java.util.Random;
 import java.util.Scanner;
