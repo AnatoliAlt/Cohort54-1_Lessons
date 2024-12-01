@@ -1,4 +1,4 @@
-package lesson_11__17_10_24_Null__Continue_01_43.classwork_fromTheTeacher_HW10;
+package lesson11_17_10_24_Null__Continue_01_43.classwork_fromTheTeacher_HW10;
   /*                                     Home Worg 10
                                              Task 2
     Написать метод, принимающий на вход массив строк. Метод должен вернуть массив, состоящий из самой

@@ -1,4 +1,4 @@
-package lesson_11__17_10_24_Null__Continue_01_43.homework;
+package lesson11_17_10_24_Null__Continue_01_43.homework;
 /*
 Task 1
 Написать метод, который считает сумму всех элементов в массиве.
