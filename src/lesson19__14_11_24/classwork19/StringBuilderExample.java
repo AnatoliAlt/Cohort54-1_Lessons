@@ -1,4 +1,4 @@
-package lesson_19__14_11_24.classwork19;
+package lesson19__14_11_24.classwork19;
 
 import java.util.Arrays;
 import java.util.Scanner;

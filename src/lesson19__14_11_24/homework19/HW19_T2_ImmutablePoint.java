@@ -1,4 +1,4 @@
-package lesson_19__14_11_24.homework19;
+package lesson19__14_11_24.homework19;
 /*                              Home Work 19
                                    Task 2
 Неизменяемая переменная

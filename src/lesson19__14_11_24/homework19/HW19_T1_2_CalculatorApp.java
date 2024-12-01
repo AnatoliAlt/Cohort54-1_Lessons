@@ -1,4 +1,4 @@
-package lesson_19__14_11_24.homework19;
+package lesson19__14_11_24.homework19;
 
 public class HW19_T1_2_CalculatorApp {
     public static void main(String[] args) {

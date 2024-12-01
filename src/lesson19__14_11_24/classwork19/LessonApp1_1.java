@@ -1,4 +1,6 @@
-package lesson_19__14_11_24.classwork19;
+package lesson19__14_11_24.classwork19;
+
+import lesson19__14_11_24.classwork19.ConstantDemo1;
 
 public class LessonApp1_1 {
 

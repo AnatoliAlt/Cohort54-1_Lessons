@@ -1,4 +1,4 @@
-package lesson_19__14_11_24.homework19;
+package lesson19__14_11_24.homework19;
 /*
 Task 1
 Дополните Класс "Калькулятор" из предыдущего домашнего задания

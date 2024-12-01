@@ -1,4 +1,4 @@
-package lesson_19__14_11_24.classwork19;
+package lesson19__14_11_24.classwork19;
 
 public class ConstantDemo1 {
     // Константа - static final + строка (String) ИЛИ примитивные типы данных (int, double и т.д.).
