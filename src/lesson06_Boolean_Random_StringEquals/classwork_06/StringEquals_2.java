@@ -1,4 +1,4 @@
-package lesson_06_Boolean_Random_StringEquals.classwork_06;
+package lesson06_Boolean_Random_StringEquals.classwork_06;
 
 public class StringEquals_2 {
     public static void main(String[] args) {

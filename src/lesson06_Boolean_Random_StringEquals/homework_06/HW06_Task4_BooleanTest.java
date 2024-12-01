@@ -1,4 +1,4 @@
-package lesson_06_Boolean_Random_StringEquals.homework_06;
+package lesson06_Boolean_Random_StringEquals.homework_06;
 /*
 Task 4
 Дан следующий код. Вашей задачей является предсказать, какой
