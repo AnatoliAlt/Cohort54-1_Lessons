@@ -1,4 +1,4 @@
-package lesson_16__05_11_24_MagicArray_OOP_Constructor.classwork16;
+package lesson16__05_11_24_MagicArray_OOP_Constructor.classwork16;
 
 public class DogApp {
     public static void main(String[] args) {
