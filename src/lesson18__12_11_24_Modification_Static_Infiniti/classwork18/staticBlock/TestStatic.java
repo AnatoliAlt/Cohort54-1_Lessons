@@ -1,4 +1,4 @@
-package lesson_18__12_11_24_Modification_Static.classwork18;
+package lesson18__12_11_24_Modification_Static_Infiniti.classwork18.staticBlock;
 
 public class TestStatic {
     // non-static поле класса
@@ -45,12 +45,12 @@ public class TestStatic {
         testStatic.nonStaticMethod();// Теперь все работает
 
         System.out.println("========== class MathUtil ==============");
-        int sum = MathUtil.sumOfIntegers(1, 2, 3, 4, 7, 8);
+        int sum = CarApp.MathUtil.sumOfIntegers(1, 2, 3, 4, 7, 8);
         System.out.println("sum: " + sum);
         System.out.println();
 
-        MathUtil.setCounter(10);
-        System.out.println("MathUtil.getCounter(): " + MathUtil.getCounter());
+        CarApp.MathUtil.setCounter(10);
+        System.out.println("MathUtil.getCounter(): " + CarApp.MathUtil.getCounter());
 
 
     }

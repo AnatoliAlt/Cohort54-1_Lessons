@@ -1,4 +1,4 @@
-package lesson_18__12_11_24_Modification_Static.homework18;
+package lesson18__12_11_24_Modification_Static_Infiniti.homework18;
 
 public class NewCalculator {
 

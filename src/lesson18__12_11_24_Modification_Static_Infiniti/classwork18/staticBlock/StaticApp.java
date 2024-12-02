@@ -1,4 +1,4 @@
-package lesson_18__12_11_24_Modification_Static.classwork18.staticBlock;
+package lesson18__12_11_24_Modification_Static_Infiniti.classwork18.staticBlock;
 
 import java.util.Arrays;
 

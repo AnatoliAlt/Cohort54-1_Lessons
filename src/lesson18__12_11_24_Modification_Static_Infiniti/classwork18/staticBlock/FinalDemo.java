@@ -1,4 +1,4 @@
-package lesson_18__12_11_24_Modification_Static.classwork18;
+package lesson18__12_11_24_Modification_Static_Infiniti.classwork18.staticBlock;
 
 public class FinalDemo {
     // Для примитивных типов данных, помеченных как final
