@@ -1,6 +1,6 @@
-package lesson_17__07_11_24_Incapsulation.classwork17;
+package lesson17__07_11_24_Incapsulation.homework_17;
 
-public class MagicArray17 {
+public class MagicArray17_HW {
 
     /*
     1. Добавлять в массив элементы (не думая об индексах и размере массива0)
@@ -20,18 +20,18 @@ public class MagicArray17 {
      */
 
     // 1.
-    int[] array; // Ссылачка на какойто массив целых чисел
+    private int[] array; // Ссылачка на какойто массив целых чисел
     // 2. Указатель на пустую ячейку в массиве
-    int cursor; // присвоенное значение по умолчанию - 0
+    private int cursor; // присвоенное значение по умолчанию - 0
 
     // 3. Создаем пустой конструктор
-    public MagicArray17() {
+    public MagicArray17_HW() {
         array = new int[10];
 
     }
     // Создаем новый конструктор
 
-    public MagicArray17(int[] ints) {
+    public MagicArray17_HW(int[] ints) {
 
         if (ints != null) {
             //this.array = new int[ints.length];
@@ -42,6 +42,7 @@ public class MagicArray17 {
         }
 
     }
+
 
     // 6. Создаем метод. add - добавить (перевод с английского)
     void add(int value) { // 01:15:
@@ -59,7 +60,8 @@ public class MagicArray17 {
     }
 
     // 22.- (метод образуется автоматически от IDEA) Динамическое изменение размера массива
-    void expandArray() {
+    // Динамическое расширение массива
+    private void expandArray() {
         // 23.
         System.out.println("Расширяем массив! cursor: " + cursor);
 
@@ -87,7 +89,7 @@ public class MagicArray17 {
     }
 
     // 16. Добавляем в массив сразу несколько значений
-    void addAll(int... values) {// Три точки "..." означает, что он может принять не одно, а большое количество значений
+    public void addAll(int... values) {// Три точки "..." означает, что он может принять не одно, а большое количество значений
         // с values я могу обращаться точно также, как со ссылкой на массив int
         System.out.println("Мы приняли несколько int-ов. А именно: " + values.length);
         System.out.println("У каждого значения есть индекс. Под индексом 0: " + values[0]);
@@ -101,7 +103,7 @@ public class MagicArray17 {
 
     //02:32:20
     // 25. Удаление элемента по индексу
-    int remove(int index) {
+    public int remove(int index) {
         /*
         1. Проверить валидность индекса и, что он не отрицательный и меньше курсора (cursor)
         2. Запомнить, какое значение находилось под этим индексом
@@ -133,13 +135,13 @@ public class MagicArray17 {
 
 
     // 14. Текущее количества элементов в массиве
-    int size() {
+    public int size() {
         return cursor;
     }
 
     // Возвращает значение по индексу
 
-    int get(int index) {
+   public int get(int index) {
         if (index >= 0 && index < cursor) {
             // Если наш индекс вадидный, то возвращаем return элемент с именем индекс
             return array[index];
@@ -151,7 +153,7 @@ public class MagicArray17 {
     // [10, 100, 44, 100, 453, 100, 34]
     // Поиск первого вхождения элемента по значению.
     // Возвращает индекс элемента. Если значение не найдено возвращает -1 (не существующий индекс для любого массива)
-    int indexOf(int value) {// Метол IndeyOf принимает какое-то значение int value
+   public int indexOf(int value) {// Метол IndeyOf принимает какое-то значение int value
         for (int i = 0; i < cursor; i++) {
             if (array[i] == value) {// если мы нашли, то значение которое искали ->
                 // нашли первое значение
@@ -165,19 +167,32 @@ public class MagicArray17 {
     }
     // Поиск последнего вхождения элемента по значению
 
-    int lastIndeyOf(int value) {
-        // TODO homework
-        return -1;
+    public int lastIndeyOf(int value) {
+        int index = -1;
+
+        for (int i = cursor -1; i >= 0; i--) {
+            if (array[i] == value){
+                return i;
+            }
+
+        }
+        return index;
     }
+
     //13.  Метод, который возвращает все значения в виде обычного массива
-    int[] toArray(){
-        // TODO HomeWork
-        return null;
+    public int[] toArray() {
+        int[] result = new int[cursor]; // Создаем новый массив и копируем в него данные из старого массива
+
+        for (int i = 0; i < cursor; i++) {
+            result[i] = array[i];
+            
+        }
+        return result;
     }
 
 
     // Удаление элемента по значению
-    boolean removeByValue(int value) {
+    public boolean removeByValue(int value) {
         /*
         1. Нужно проверить, есть ли у нас такой элемент в массиве
         2. Если нет - то вернуть false
@@ -201,7 +216,7 @@ public class MagicArray17 {
     }
 
     //  11. Замена значения по индексу (есть индекс и новое значение) --- и возвращает старое значение
-    int set(int index, int newValue) {
+    public int set(int index, int newValue) {
 /*
 1. Проверить валидацию индкса от 0 до cursor
 2. Вытащить старое значение - и запомнить его

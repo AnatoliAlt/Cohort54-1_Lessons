@@ -1,4 +1,4 @@
-package lesson_17__07_11_24_Incapsulation.persons;
+package lesson17__07_11_24_Incapsulation.persons;
 
 public class Person {
 

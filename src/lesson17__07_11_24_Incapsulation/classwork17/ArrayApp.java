@@ -1,4 +1,4 @@
-package lesson_17__07_11_24_Incapsulation.classwork17;
+package lesson17__07_11_24_Incapsulation.classwork17;
 
 public class ArrayApp {
     public static void main(String[] args) {

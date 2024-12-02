@@ -1,4 +1,4 @@
-package lesson_17__07_11_24_Incapsulation.homework_17;
+package lesson17__07_11_24_Incapsulation.homework_17;
 
 /*
 Task 0
