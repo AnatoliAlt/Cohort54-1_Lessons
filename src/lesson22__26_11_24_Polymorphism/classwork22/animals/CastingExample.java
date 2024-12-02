@@ -24,7 +24,7 @@ public class CastingExample {
         // из класса Cat, а так-же класса Animal (и супер класса Object) и используем нужный нам метод.
 
         System.out.println("============ Неявное преоброзование ========================");
-
+        System.out.println("============= Array =====================");
         Animal animal12 = new Dog(); // Неявное автоматическое преоброзование.
         Animal animal13 = new Hamster();
 
