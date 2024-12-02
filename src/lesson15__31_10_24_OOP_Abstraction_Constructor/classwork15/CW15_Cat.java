@@ -1,4 +1,4 @@
-package lesson_15__31_10_24_OOP_Abstraction_Constructor.classwork15;
+package lesson15__31_10_24_OOP_Abstraction_Constructor.classwork15;
 
 /*
 Абстракция - это отделение значимой информации от незначимой в кантексте

@@ -1,4 +1,4 @@
-package lesson_15__31_10_24_OOP_Abstraction_Constructor.homework15;
+package lesson15__31_10_24_OOP_Abstraction_Constructor.homework15;
 
 public class HW15_FootballMain1_1 {
 
