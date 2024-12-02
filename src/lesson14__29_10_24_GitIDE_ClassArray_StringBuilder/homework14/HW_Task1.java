@@ -1,4 +1,4 @@
-package lesson_14__29_10_24_GitIDE_ClassArray_StringBuilder.homework14;
+package lesson14__29_10_24_GitIDE_ClassArray_StringBuilder.homework14;
 /*                         Home Work 14
                               Task 1
 Сумма четных чисел

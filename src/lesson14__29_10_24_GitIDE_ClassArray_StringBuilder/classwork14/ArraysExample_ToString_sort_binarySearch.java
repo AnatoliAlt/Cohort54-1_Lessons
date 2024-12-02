@@ -1,4 +1,4 @@
-package lesson_14__29_10_24_GitIDE_ClassArray_StringBuilder.classwork14;
+package lesson14__29_10_24_GitIDE_ClassArray_StringBuilder.classwork14;
 
 import java.util.Arrays;
 import java.util.Random;
