@@ -9,15 +9,17 @@ package lesson23_28_11_24.homework23;
  */
 public class Circle extends HW23_Shape {
 
+    double radius ;
 
     @Override
-    public void calculationArea(double arae) {
-        //double ar = PI * radius * radius;
+    public void calculationArea() { // area - площадь
+        System.out.println("Площадь окружности: " + Math.PI * radius * radius);
 
     }
 
     @Override
-    public void calculationPerimetr(double perimetr) {
+    public void calculationPerimetr() { // perimetr - периметр
+        System.out.println("Длина окружности: " + 2 * Math.PI * radius);
 
     }
 }

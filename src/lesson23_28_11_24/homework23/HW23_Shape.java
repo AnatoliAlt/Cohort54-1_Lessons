@@ -9,9 +9,9 @@ package lesson23_28_11_24.homework23;
 
 public abstract class HW23_Shape { // Shape (Форма)
 
-    public abstract void calculationArea(double arae);
+    public abstract void calculationArea(); // area - площадь
 
-    public abstract void calculationPerimetr(double perimetr);
+    public abstract void calculationPerimetr(); // perimetr - периметр
 
 
 }
