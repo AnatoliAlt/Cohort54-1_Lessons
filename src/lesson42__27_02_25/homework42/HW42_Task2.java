@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class HW42_Task2 {
     /*               Home Work 42
-                        Task 2
+                        Task_2
 Имеется список строк. Используя Stream API, найдите строку по длине и с минимальной длиной.
      */
 

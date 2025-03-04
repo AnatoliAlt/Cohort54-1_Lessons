@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class HW42_Task3 {
     /*                      Home Work 42
-                              Task 3
+                              Task_3
 Имеется список целых чисел.
 
 Необходимо отфильтровать этот список, оставив только чётные числа, затем
