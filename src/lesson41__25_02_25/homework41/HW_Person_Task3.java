@@ -33,7 +33,7 @@ public class HW_Person_Task3 {
 
                 .filter(person -> person.getCity().equals("Munich"))
                 .peek(person -> System.out.println("Проживает в городе : " + person))
-                .collect(Collectors.toList());
+                .collect(Collectors.toList());// Собираем результат в список
         System.out.println("Список людей старше 26 лет и проживающих в городе Munich: " + personList);
 
     }

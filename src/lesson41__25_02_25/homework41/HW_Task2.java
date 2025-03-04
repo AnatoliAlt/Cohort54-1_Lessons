@@ -25,7 +25,7 @@ public class HW_Task2 {
         System.out.println("Список имен: " + strings); // Распечатка списка имен
         List<String> filteredStrings = strings.stream()
                 .filter(s -> s.startsWith("L")) // отфильтруем строки, которые начинаются на "L"
-                .collect(Collectors.toList()); // Список имен на первую букву L
+                .collect(Collectors.toList()); // Собираем результат в список.  Список имен на первую букву L
         //System.out.println();
            List<String> sortedStrings = filteredStrings.stream() //
                   .sorted() // Сортировка списка имен в алфавитном порядке из списка на первую букву L  .filter(s -> s.startsWith("L"))

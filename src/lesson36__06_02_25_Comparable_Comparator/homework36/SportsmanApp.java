@@ -23,7 +23,7 @@ public class SportsmanApp {
         System.out.println(Arrays.toString(sportsmen));
 
         System.out.println("=========== Name - Интерфейс Comparator =========");
-
+//
         Arrays.sort(sportsmen, new SportNameComparator());
         System.out.println(Arrays.toString(sportsmen));
 

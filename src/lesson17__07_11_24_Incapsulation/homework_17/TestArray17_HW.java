@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class TestArray17_HW {
     public static void main(String[] args) {
 
-        MagicArray17_HW magic = new MagicArray17_HW();
+        MagicArrayEncap17_HW magic = new MagicArrayEncap17_HW();
 
         magic.addAll(10, 20, 30, 40, 50);
 

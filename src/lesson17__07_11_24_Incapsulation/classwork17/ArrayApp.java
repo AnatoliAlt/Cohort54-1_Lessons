@@ -6,7 +6,7 @@ public class ArrayApp {
         int[] ints = {10, 20, 50, -25, 35, 45, 100, -1, 50 };
 
         // Создаем объект
-        MagicArray17 magicArray = new MagicArray17(ints);
+        MagicArrayEncap17 magicArray = new MagicArrayEncap17(ints);
 
         System.out.println(magicArray.toString());
         System.out.println("magicArray.indexOf(10): " + magicArray.indexOf(10));// Результат:

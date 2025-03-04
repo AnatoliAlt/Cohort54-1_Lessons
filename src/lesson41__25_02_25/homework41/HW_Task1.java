@@ -20,7 +20,7 @@ public class HW_Task1 {
                 .filter(i -> i > 10 && i < 100 && i % 2 == 0)
                 .peek(i -> System.out.println(i))
                 .sorted()
-                .collect(Collectors.toList());
+                .collect(Collectors.toList());// Собираем результат в список
         System.out.println("Отфильтрованный список соответствующий условиям четные, больше 10 и меньше 100: " + intergerList);
     }
 
