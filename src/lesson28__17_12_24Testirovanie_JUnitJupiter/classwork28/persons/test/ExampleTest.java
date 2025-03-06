@@ -1,6 +1,7 @@
 package lesson28__17_12_24Testirovanie_JUnitJupiter.classwork28.persons.test;
 
 import lesson27__12_12_24_forEach_Enum.classwork27.enums.days.Day;
+import lesson28__17_12_24Testirovanie_JUnitJupiter.classwork28.persons.Person;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;

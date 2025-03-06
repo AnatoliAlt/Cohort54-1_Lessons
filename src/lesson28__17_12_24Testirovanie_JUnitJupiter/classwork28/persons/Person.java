@@ -1,4 +1,4 @@
-package lesson28__17_12_24Testirovanie_JUnitJupiter.classwork28.persons.test;
+package lesson28__17_12_24Testirovanie_JUnitJupiter.classwork28.persons;
 
 public class Person {
 

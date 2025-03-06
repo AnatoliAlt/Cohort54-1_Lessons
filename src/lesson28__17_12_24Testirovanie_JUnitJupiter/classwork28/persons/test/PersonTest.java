@@ -1,6 +1,6 @@
 package lesson28__17_12_24Testirovanie_JUnitJupiter.classwork28.persons.test;
 
-import org.junit.jupiter.api.Assertions;
+import lesson28__17_12_24Testirovanie_JUnitJupiter.classwork28.persons.Person;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
