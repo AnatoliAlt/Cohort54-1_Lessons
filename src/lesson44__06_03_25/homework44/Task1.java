@@ -1,6 +1,6 @@
 package lesson44__06_03_25.homework44;
-/*
-Task 1
+/*                         Home Work 44
+                              Task 1
 Дан файл text.txt:
 
 Lorem ipsum dolor sit amet, consectetur adipisicing.
