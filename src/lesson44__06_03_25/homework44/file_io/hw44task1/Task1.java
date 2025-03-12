@@ -1,4 +1,4 @@
-package lesson44__06_03_25.homework44.file_io.hwtask1;
+package lesson44__06_03_25.homework44.file_io.hwTask1;
 /*                         Home Work 44
                               Task 1
 Дан файл text.txt:
