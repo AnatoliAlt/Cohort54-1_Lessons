@@ -1,4 +1,4 @@
-package lesson44__06_03_25.homework44;
+package lesson44__06_03_25.homework44.file_io.hwtask1;
 /*                         Home Work 44
                               Task 1
 Дан файл text.txt:
@@ -13,20 +13,16 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit.
 Lorem ipsum dolor sit.
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo!
 Copy
-Ваша задача используя классы пакета java.io создать файл с именем 'copy.txt' и скопировать
+Ваша задача используя классы пакета java.io создать файл с именем 'text.txt' и скопировать
 в него все данные из файла 'text.txt'
  */
 
-import lesson44__06_03_25.classwork44.cats.Cat;
-
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Task1 {
     public static void main(String[] args) {
 
-        File dolor = new File("src/lesson44__06_03_25/homework44/file_io");
+        File dolor = new File("src/lesson44__06_03_25/homework44/file_io/hwtask1");
         System.out.println("dolor.mkdirs(): " + dolor.mkdirs());
 
         File dolDr = new File(dolor, "text.txt");
@@ -57,13 +53,13 @@ public class Task1 {
                     "Lorem ipsum dolor sit.\n" +
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo!\n" +
                     "Copy\n" +
-                    "Ваша задача используя классы пакета java.io создать файл с именем 'copy.txt' и скопировать\n" +
+                    "Ваша задача используя классы пакета java.io создать файл с именем 'text.txt' и скопировать\n" +
                     "в него все данные из файла 'text.txt'");
             fileWriter.close(); // Закрываем поток
         } catch (IOException e) {
             e.printStackTrace();
         }
-        File fileDlr = new File(dolor, "copy.txt"); // Создаём новый файл "copy.txt"
+        File fileDlr = new File(dolor, "copy.txt"); // Создаём новый файл "text.txt"
         try {
             System.out.println("Создаём файл copy.txt - fileDlr.createNewFile(): " + fileDlr.createNewFile());
         } catch (IOException e) {
@@ -72,20 +68,20 @@ public class Task1 {
 
         // Проверяем, файлы fileDl и fileDlr существуют или нет
         if (fileDl.exists()) {
-            System.out.println("Файл fileDl найден: " + fileDl.exists());
+            System.out.println("Файл fileDl text.txt найден: " + fileDl.exists());
         } else {
-            System.out.println("Файл fileDl не найден: " + fileDl.exists());
+            System.out.println("Файл fileDl text.txt не найден: " + fileDl.exists());
         }
         if (fileDlr.exists()) {
-            System.out.println("Файл fileDlr найден: " + fileDlr.exists());
+            System.out.println("Файл fileDlr copy.txt найден: " + fileDlr.exists());
         } else {
-            System.out.println("Файл fileDlr не найден: " + fileDlr.exists());
+            System.out.println("Файл fileDlr copy.txt не найден: " + fileDlr.exists());
         }
         // Удаляем файл, если он уже есть
         if (fileDl.exists()) fileDlr.delete();
         // Создать файл, если его еще нет.
         try {
-            System.out.println("fileDlr.createNewFile(): " + fileDlr.createNewFile());
+            System.out.println("Cоздать файл, если его еще нет -fileDlr.createNewFile(): " + fileDlr.createNewFile());
         } catch (IOException e) {
             e.printStackTrace();
         }
