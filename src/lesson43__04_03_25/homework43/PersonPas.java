@@ -1,5 +1,8 @@
 package lesson43__04_03_25.homework43;
 
+import lesson43__04_03_25.classwork43.EmailValidateException;
+import lesson43__04_03_25.classwork43.PersonValidator;
+
 public class PersonPas {
 
     private String email;
@@ -13,11 +16,19 @@ public class PersonPas {
     public String getEmail() {
         return email;
     }
-
     public void setEmail(String email) {
-        if (isEmailValid(email)) {
+        try {
+            PersonValidator.validateEmail(email);
+            System.out.println("Email прошел проверку");
             this.email = email;
+        } catch (EmailValidateException e) {
+            System.out.println("Вы ввели некорректный email: " + e.getMessage());
         }
+
+ //   public void setEmail(String email) {
+ //       if (isEmailValid(email)) {
+ //           this.email = email;
+ //       }
 
     }
     /*

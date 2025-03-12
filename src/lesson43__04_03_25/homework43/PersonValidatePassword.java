@@ -20,22 +20,16 @@ public class PersonValidatePassword {
         // Альтернативный способ объявления переменных
         boolean[] result = new boolean[4];// Все 4 переменные будут иметь по умолчанию false
 
-        String symbols = "! % $ @ & * () []";
+        String symbols = "!%$@&*()[]";
 
         for (int i = 0; i < password.length(); i++) {
             char ch = password.charAt(i);
 
             if (Character.isDigit(ch)) result[0] = true; // Цифра
-
-
             if (Character.isUpperCase(ch)) result[1] = true; // Большая буква
-
-
             if (Character.isLowerCase(ch)) result[2] = true; // Маленькая букв
-
-
             if (symbols.indexOf(ch) >= 0) result[3] = true; // Спец. символ
-
+        }
 
             // Если хотя бы в одной переменной останется значение false,
             // то весь пароль не будет признан валидным и из метода вернется false
@@ -43,20 +37,18 @@ public class PersonValidatePassword {
             if (!result[0]) {
                 throw new PasswordValidateException(" error: Пароль должен содержать хотя бы одну цифру");
             }
-            if (!result[1]) {
-                throw new PasswordValidateException("A error: Пароль должен содержать хотя бы одну большую букву");
-            }
-            if (!result[2]) {
-                throw new PasswordValidateException("d error: Пароль должен содержать хотя бы одну маленькую букву");
+            if (!result[1]) throw new PasswordValidateException("A error: Пароль должен содержать хотя бы одну большую букву");
 
-            }
-            if (!result[3]) {
-                throw new PasswordValidateException("! % $ @ & * () [] error: Пароль должен содержать хотя бы один спец. символ (!%$@&*()[])");
-            }
+
+            if (!result[2]) throw new PasswordValidateException("d error: Пароль должен содержать хотя бы одну маленькую букву");
+
+
+            if (!result[3]) throw new PasswordValidateException("!%$@&*()[] error: Пароль должен содержать хотя бы один спец. символ (!%$@&*()[])");
+
 
         }
     }
-}
+
 
 
 
